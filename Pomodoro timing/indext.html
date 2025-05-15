@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Pomodoro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="tomato-area">
+      <!-- MASUKKAN GAMBAR DI SINI -->
+      <img src="tomato.jpg" alt="Tomato Character" class="tomato" />
+    </div>
+
+    <div class="main-timer">
+      <h1>Pomodoro Timer</h1>
+      <div class="timer">25:00</div>
+      <p class="label">Focus Time</p>
+      <p class="slogan">Power up. Lock in. Win time</p>
+
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+        <button id="pause">Pause</button>
+      </div>
+    </div>
+
+    <div class="side-buttons">
+      <button onclick="setTime(25)">Focus<br><span>25:00</span></button>
+      <button onclick="setTime(5)">Short Break<br><span>05:00</span></button>
+      <button onclick="setTime(15)">Long Break<br><span>15:00</span></button>
+    </div>
+  </div>
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <script src="style.js"></script>
+</body>
+</html>
